@@ -18,7 +18,7 @@ class ActorsController < ApplicationController
     end
       
     def artist_params
-        params.require(:actor).permit(:death_place, :death_date, :image_url, :birth_place, :birth_date, :bio, :name)
+        params.require(:actor).permit(:death_place, :death_date, :image_url, :birth_place, :birth_date, :bio, :name, :alive)
     end
 
 end
