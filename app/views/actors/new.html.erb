@@ -1,5 +1,3 @@
-
-
 <%= form_for @actor do |f| %>
   <div>
     <%= f.label :name %><br>
@@ -22,10 +20,6 @@
     <%= f.text_area :image_url, class:"form-control", id:"exampleFormControlTextarea1" %>
   </div>
   <div>
-    <%= f.label :alive %><br>
-    <%= f.text_area :alive, class:"form-control", id:"exampleFormControlTextarea1" %>
-  </div>
-  <div>
     <%= f.label :death_date %><br>
     <%= f.text_area :death_date, class:"form-control", id:"exampleFormControlTextarea1" %>
   </div>
@@ -34,6 +28,6 @@
     <%= f.text_area :death_place, class:"form-control", id:"exampleFormControlTextarea1" %>
   </div>
   <div>
-    <%= f.submit class:"btn btn-primary"  %>
+    <%= f.submit %>
   </div>
 <% end %>
